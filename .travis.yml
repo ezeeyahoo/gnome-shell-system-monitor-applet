@@ -5,6 +5,10 @@ sudo: required
 language: python
 python: 2.7
 
+arch:
+  - amd64
+  - ppc64le
+
 env:
 -   MAX_CPU_PERCENT=20 MAX_MEM_PERCENT=5
 
